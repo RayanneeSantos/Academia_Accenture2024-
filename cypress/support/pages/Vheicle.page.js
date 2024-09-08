@@ -22,7 +22,7 @@ Cypress.Commands.add('preencherCampos', () => {
     cy.get(SELECT_NUMBER_OF_SEATS).should('be.visible').select('5')
     cy.get(SELECT_FUEL_TYPE).should('be.visible').select('Petrol')
     cy.get(INPUT_LIST_PRICE).should('be.visible').type('45000')
-    cy.get(INPUT_LICENCE_PLATE_NUMBER).should('be.visible').type('Q9W00')
+    cy.get(INPUT_LICENCE_PLATE_NUMBER).should('be.visible').type(Cypress.env('licensePlate'), {log:false})
     cy.get(INPUT_ANNUAL_MILAGE).should('be.visible').type('10000')
 })
 

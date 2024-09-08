@@ -12,7 +12,7 @@ Cypress.Commands.add('inserirCampos', () => {
     cy.get(INPUT_LASTNAME).should('be.visible').type('Santos')
     cy.get(INPUT_DATE_OF_BIRTH).should('be.visible').type('11/21/1988')
     cy.get(SELECT_COUNTRY).should('be.visible').select('Brazil')
-    cy.get(INPUT_ZIP_CODE).should('be.visible').type('3250090')
+    cy.get(INPUT_ZIP_CODE).should('be.visible').type(Cypress.env('licensePlate'), {log:false})
     cy.get(SELECT_OCUPATION).should('be.visible').select('Farmer')
     cy.get('input[type="checkbox"]').eq(2).should('be.visible').check({ force: true })
 })
