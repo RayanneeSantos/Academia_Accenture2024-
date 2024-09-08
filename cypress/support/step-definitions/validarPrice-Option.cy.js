@@ -10,6 +10,10 @@ Then('finalizo na aba Price Option', () => {
     cy.selecionarOpcao()
 })
 
-And('realizo o download', () => {
-    cy.view()
+And('clico pra visualizar o view', () => {
+    cy.VisualizarView()
+})
+
+And('realizo a validação', () => {
+    cy.validarCotacaoSucesso()
 })

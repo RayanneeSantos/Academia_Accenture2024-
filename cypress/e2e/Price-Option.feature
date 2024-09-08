@@ -12,5 +12,7 @@ Cenário: Preencher todos os campos obrigátorios do Price Option
     E sou redirecionado para preencer os campos Product Data
     E clico em seguinte
     Então finalizo na aba Price Option
-    E realizo o download
+    E clico pra visualizar o view
+    E realizo a validação
+
 
