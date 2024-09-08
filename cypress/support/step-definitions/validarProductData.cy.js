@@ -5,7 +5,7 @@ Given('que acesso o Portal Tricents', () => {
 
 })
 
-And('sou redirecionado para preencer os campos Product Data', () => {
+And('sou redirecionado para preencher os campos Product Data', () => {
     cy.preencherProductData()
 })
 

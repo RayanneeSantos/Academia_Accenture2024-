@@ -9,10 +9,10 @@ Cenário: Preencher todos os campos obrigátorios do Price Option
     E clico em next
     Quando preencho os campos da Insuret Data
     E clico em proximo
-    E sou redirecionado para preencer os campos Product Data
+    E sou redirecionado para preencher os campos Product Data
     E clico em seguinte
     Então finalizo na aba Price Option
-    E clico pra visualizar o view
+    E clico pra visualizar o pdf
     E realizo a validação
 
 

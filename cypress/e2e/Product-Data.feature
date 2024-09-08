@@ -9,7 +9,7 @@ Cenário: Preencher todos os campos obrigátorios do Product Data
     E clico em next
     Quando preencho os campos da Insuret Data
     E clico em proximo
-    E sou redirecionado para preencer os campos Product Data
+    E sou redirecionado para preencher os campos Product Data
     Então clico em seguinte
     
 

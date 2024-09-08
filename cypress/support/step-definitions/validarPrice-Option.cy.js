@@ -10,8 +10,8 @@ Then('finalizo na aba Price Option', () => {
     cy.selecionarOpcao()
 })
 
-And('clico pra visualizar o view', () => {
-    cy.VisualizarView()
+And('clico pra visualizar o pdf', () => {
+    cy.VisualizarPdf()
 })
 
 And('realizo a validação', () => {

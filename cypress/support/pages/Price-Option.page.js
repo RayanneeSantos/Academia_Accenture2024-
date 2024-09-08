@@ -5,7 +5,7 @@ Cypress.Commands.add('selecionarOpcao', () => {
     cy.get('input[type="radio"]').eq(3).should('be.visible') .check({ force: true })
 })
 
-Cypress.Commands.add('VisualizarView', () => {
+Cypress.Commands.add('VisualizarPdf', () => {
     cy.get(BUTTON_VIEW).should('be.visible').click()
     
 })
